@@ -1,3 +1,4 @@
+
 # chapter 1 topics
 # What is a program
 # Running Python
@@ -14,33 +15,45 @@
 # comments
 # debugging
 
+#print("hello World!")
 
+print("to find value of y [press enter to continue]")
 
+ness = input()
 
+if ness == "":
+    print("type value of x")
 
-print("hello World!")
+    userinput = input()
+
+    x = userinput
+
+    if x.isnumeric():
+        num1 = input("""enter slope""")
+        num2 = input("""enter y intercept""")
+        print("""y = """ + str(int(num1) * int(x) + int(num2)))
 
 # I will add prints
 
 # A string value
-String = "why not"
+#String = "why not"
 # integer values
-value = 5
-another_value = 7
-two = 2
+#value = 5
+#another_value = 7
+#two = 2
 # float  value
-pi = 3.14
+#pi = 3.14
 
-new_value = value + another_value
+#new_value = value + another_value
 
-new_value -= pi
+#new_value -= pi
 
-power_o_2 = two ** 2
+#power_o_2 = two ** 2
 
 
 # update in a loop
 
-while value > 5 :
+#while value > 5 :
 #    print(value)
-    value = value -1
+    #value = value -1
 #print("endloop")
